@@ -1,0 +1,5 @@
+nltk
+keras
+numpy
+streamlit
+tensorflow

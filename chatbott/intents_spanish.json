@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {
+        "tag": "saludo",
+        "patterns": ["Hola", "¿Qué tal?", "Buenos días", "Buenas tardes", "Buenas noches"],
+        "responses": ["Hola", "¡Hola!", "¡Hola! ¿En qué puedo ayudarte?"]
+        },
+        {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Hasta la próxima"],
+        "responses": ["Adiós", "¡Hasta luego!", "¡Nos vemos!"]
+        },
+        {
+        "tag": "agradecimiento",
+        "patterns": ["Gracias", "Muchas gracias", "¡Gracias!", "¡Muchas gracias!"],
+        "responses": ["De nada", "¡No hay de qué!", "¡Estoy para ayudarte!"]
+        },
+        {
+        "tag": "ayuda",
+        "patterns": ["¿Puedes ayudarme?", "Necesito ayuda", "¿Me puedes ayudar?", "¿Qué hago?"],
+        "responses": ["¡Claro que sí!", "¡Por supuesto!", "¡Estoy aquí para ayudarte!"]
+        },
+        {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Hasta la próxima"],
+        "responses": ["Adiós", "¡Hasta luego!", "¡Nos vemos!"]
+        },
+        {
+        "tag": "nombre",
+        "patterns": ["¿Cómo te llamas?", "¿Cuál es tu nombre?", "¿Tienes nombre?", "¿Quién eres?"],
+        "responses": ["Soy un chatbot", "Soy un asistente virtual", "Puedes llamarme chatbot"]
+        },
+        {
+        "tag": "edad",
+        "patterns": ["¿Cuántos años tienes?", "¿Cuál es tu edad?", "¿Eres viejo?", "¿Eres joven?"],
+        "responses": ["Soy un programa de computadora", "No tengo edad", "Soy eternamente joven"]
+        },
+        {
+        "tag": "creador",
+        "patterns": ["¿Quién te creó?", "¿Quién es tu creador?", "¿Quién te programó?", "¿Quién te diseñó?"],
+        "responses": ["Fui creado por un desarrollador", "Mi creador es un programador", "Fui diseñado por un equipo de desarrolladores"]
+        }
+    ]  
+} 
