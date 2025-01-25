@@ -9,9 +9,6 @@ from tensorflow.keras.optimizers import SGD
 from tensorflow.keras.optimizers.schedules import ExponentialDecay
 import random
 
-
-
-
 data_file = open('intents_spanish.json', 'r', encoding="utf-8").read()
 intents = json.loads(data_file)
 
